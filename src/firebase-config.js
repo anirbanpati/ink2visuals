@@ -24,5 +24,7 @@ const Provider = new GoogleAuthProvider();
 const db = getFirestore(app);
 const storage = getStorage(app);
 
+const API_TOKEN = "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";
 
-export { Auth, Provider, db, storage };
+
+export { Auth, Provider, db, storage,API_TOKEN };
